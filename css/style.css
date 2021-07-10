@@ -1,0 +1,36 @@
+body {
+    background-color: #D2D9D8;
+    color: #D96D55;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Libre Baskerville";
+    font-size: 32pt;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer{
+    background-color: #557373;
+    text-align: center;
+    padding:15px;
+    color: #D2D9D8;
+
+}
+
+#hero img{
+    width: 280px;
+
+}
+
+#bio{
+    text-align: center;
+    font-size :20px;
+}
+
+
+footer{
+    text-align: center
+}
