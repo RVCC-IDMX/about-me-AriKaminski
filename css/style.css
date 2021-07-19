@@ -1,6 +1,6 @@
 body {
     background-color: #D2D9D8;
-    color: #D96D55;
+    color: #BA5D49;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -41,8 +41,9 @@ header {
 }
 /* Gallery Section*/
 #gallery {
-    border: 10px #D96D55;
-    
+    border: 5px double #253b40;
+       
+    margin-bottom:2rem; 
 }
 
 #gallery img {
@@ -52,6 +53,20 @@ header {
 
 #gallery figure {
     text-align: center;
+}
+
+#lit {
+    border: 5px double #253b40;
+    outline-offset: 0px;   
+    margin-bottom: 2rem;
+}
+
+#lit div{
+    padding:2rem;
+    max-width: 55rem;
+    margin:0 auto;
+
+
 }
 
 
