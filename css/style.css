@@ -12,6 +12,10 @@ h1 {
     font-size: 32pt;
 }
 
+h2{
+    font-size: 26pt;
+}
+
 header {
     text-align: center;
 }
@@ -21,6 +25,7 @@ header {
     text-align: center;
     padding:15px;
     color: #D2D9D8;
+    box-shadow: 2px 2px 8px 2px #000000;
 
 }
 /* Hero Section */
@@ -37,6 +42,7 @@ header {
 #hobbies{
     text-align:center;
     list-style: inside;
+    font-size: 20px;
 
 }
 /* Gallery Section*/
@@ -44,6 +50,7 @@ header {
     border: 5px double #253b40;
        
     margin-bottom:2rem; 
+    font-size: 20px;
 }
 
 #gallery img {
@@ -59,6 +66,7 @@ header {
     border: 5px double #253b40;
     outline-offset: 0px;   
     margin-bottom: 2rem;
+    font-size: 18px;
 }
 
 #lit div{
