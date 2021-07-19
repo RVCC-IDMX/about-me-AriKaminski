@@ -48,7 +48,7 @@ header {
 /* Gallery Section*/
 #gallery {
     border: 5px double #253b40;
-       
+    text-underline-position: below;
     margin-bottom:2rem; 
     font-size: 20px;
 }
@@ -73,6 +73,7 @@ header {
     padding:2rem;
     max-width: 55rem;
     margin:0 auto;
+    text-indent: 2rem;
 
 
 }
