@@ -14,6 +14,7 @@ h1 {
 
 h2{
     font-size: 26pt;
+    margin: .5em;
 }
 
 header {
@@ -44,14 +45,16 @@ header {
     text-align:center;
     list-style: inside;
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 /* Gallery Section*/
 #gallery {
     border: 5px double #253b40;
-    text-underline-position: below;
     margin-bottom:2rem; 
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 #gallery img {
@@ -69,7 +72,7 @@ header {
     border: 5px double #253b40;
     outline-offset: 0px;   
     margin-bottom: 2rem;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #lit div{
@@ -84,4 +87,22 @@ header {
 
 footer{
     text-align: center
+}
+
+@media screen and (min-width: 60em){
+    figure{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        
+    }
+    
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5rem;
+        margin-left: .5rem;
+
+    }
+
 }
