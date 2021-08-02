@@ -85,11 +85,28 @@ header {
 
 
 }
+
+/* video section */
+
+#videoman{
+    text-align: center;
+    
+
+}
+
+iframe {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 14px #b84c22;
+    
+    } 
 /* footer Section */
 
 footer{
     text-align: center
 }
+
 
 
 /* tablet screen */
@@ -112,6 +129,8 @@ footer{
     figure img {
         max-width: 100%;
     }
+
+
 /* large screen */
 @media screen and (min-width: 100em) {
 
