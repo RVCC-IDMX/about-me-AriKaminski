@@ -162,4 +162,46 @@ footer{
 #formElements {
 
     display:grid;
+    row-gap: .5em;
+}
+
+#contact {
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    font-size: 20px;
+}
+
+fieldset {
+    border: 2px double #557373;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+legend {
+    background-color: #557373;
+    color: rgb(255, 255, 255);
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: .5em;
+    font-size: 1rem;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#contact li{
+    margin: 1rem;
+}
+
+#contact button{
+    background-color: #557373;
+    color: white;
+    border: 2px solid #557373;
+    max-width: 600px;
+    width: 75%;
+    justify-self: center;
 }
