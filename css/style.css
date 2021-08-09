@@ -170,17 +170,20 @@ footer{
     max-width: 600px;
     margin: 2rem auto;
     font-size: 20px;
+    font-style: italic;
 }
 
 fieldset {
     border: 2px double #557373;
     margin-top: 1em;
     margin-bottom: 1em;
+    border: 5px double #557373;
 }
 
 legend {
     background-color: #557373;
     color: rgb(255, 255, 255);
+    padding: .5em;
 }
 
 #contact input, #contact textarea, #contact select, #contact button {
@@ -204,4 +207,5 @@ legend {
     max-width: 600px;
     width: 75%;
     justify-self: center;
+    
 }
