@@ -155,4 +155,11 @@ footer{
 
     }
 
+
+}
+/*Contact Form*/
+
+#formElements {
+
+    display:grid;
 }
