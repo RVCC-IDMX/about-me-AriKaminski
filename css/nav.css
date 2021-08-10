@@ -35,8 +35,6 @@ main{
 }
 
 
-
-
 /* logo */
 .logo{
     display: flex;
@@ -53,9 +51,15 @@ main{
 }
 
 
-
-
 /* navigation list */
+.navbar-links li{
+    list-style: none;
+    display: block;
+    padding: .5em 0;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block;
+}
 
 
 
@@ -65,7 +69,14 @@ main{
  and then on hover
 */
 
-
+.navbar-links a{
+    color: #b84c22;
+    background-attachment: whitesmoke;
+    font-size: 1.5rem;
+    padding: 1rem;
+    letter-spacing: 2px;
+    
+}
 
 
 
